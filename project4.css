@@ -1,0 +1,56 @@
+body {
+	background: #273746;
+	justify-content: center;
+	display: flex;
+}
+* {
+	font-family: monospace;
+	box-sizing: border-box;
+}
+h2 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+form {
+	margin: 20px;
+	width: 500px;
+	border: 2px solid black;
+	border-radius: 10px;
+	background: #ececec;
+	padding: 30px;
+}
+label {
+	font-size: 18px;
+	padding: 10px;
+}
+input {
+	display: block;
+	width: 90%;
+	padding: 10px;
+	margin: 10px;
+	border: 2px solid black;
+}
+button {
+	float: right;
+	padding: 10px;
+	border-radius: 5px;
+	margin-right: 10px;
+	background: #273746;
+	color: #ffffff;
+	border: none;
+}
+button:hover{
+	opacity: 0.8;
+}
+.error {
+	color: red;
+	padding: 10px;
+	width: 90%;
+}
+.reroute {
+	font-size: 14px;
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
